@@ -1,4 +1,4 @@
-![](project-images/smach-logo.png)
+![](project-images/smachmole-logo.png)
 
 ## Introduction
 **smachmole project** เกิดจากการที่พวกเรากลุ่ม "จาพนมดงรัก" ชื่นชอบการเล่นเกมตีตัวตุ่นที่อยู่ในห้างสรรพสินค้าสมัยก่อน ซึ่งเป็นที่นิยมมากในหมู่เด็กๆในยุคนั้น แต่ ณ ปัจจุบัน โซนตู้เกมส์ในห้างสรรพสินค้านั้นได้ถูกยกเลิกไปเกือบหมดแล้วทำให้เกมส์ตีตัวตุ่นที่พวกเราชื่นชอบได้หายไป จึงเป็นแรงบันดาลใจให้เกิด **smachmole project** ขึ้น
@@ -18,9 +18,9 @@
 ## Designs and Technical
 โดยเราได้ดีไซน์ให้มี main board (ESP32) ในการรันโปรแกรมหลักๆโดยที่จะมี start board และ mole board เป็นบอร์ดเสริมในการส่งข้อมูลเพื่อให้ main board สามารถรันโปรแกรมได้
 
-![](schematic/curcuit-design.png)
+![](project-images/curcuit-design.png)
 
-![](schematic/curcuit-module.jpg)
+![](project-images/curcuit-module.jpg)
 
 ### Main Board (ESP32)
 - เป็นบอร์ดหลักที่รันเกมส์ตีตัวตุ่นและเกมส์เป่ายิ้งฉุบ
@@ -39,7 +39,7 @@
 ### Communications
 - main board, start board และ mole board สื่อสารกันด้วย i2c protocol โดยใช้ขาพิน SCL และ SDA 
 
-![](schematic/draw_Schematic_smachmole.jpg)
+![](project-images/smachmole-communication.jpg)
 
 ## Components
 1. ESP32 board 2 เครื่อง
