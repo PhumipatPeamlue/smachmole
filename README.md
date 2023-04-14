@@ -1,6 +1,6 @@
 ![](project-images/smachmole-logo.png)
 
-## Collaborator
+## Contributors
 1. ณัฐดนัย เติมบุญผาติ
 2. พุฒิสรรค์ ทองประเสริฐ
 3. ยศวริส เนาวบุตร
